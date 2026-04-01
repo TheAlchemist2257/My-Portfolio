@@ -1,0 +1,106 @@
+h1 {
+    text-align: center;
+    
+}
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+}
+i {
+    color: black;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.container {
+    background-color: lightgray;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.profile, .skills, .experience, .leadership, .education, .courses, .certificate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: gray;
+    margin-top: 25px;
+}
+
+.second-container {
+    width: 80;
+    margin: 0px 30px;
+}
+.technical {
+    display: flex;
+
+    justify-content: space-between;
+    margin: 0px 30px;
+}
+.first-experience {
+    display: flex; 
+    padding-left: 50px;
+    border: 1px solid black;
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    background-color: gray;
+    margin-top: 50px;
+}
+.carousel {
+      max-width: 500px;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+      border-radius: 14px;
+    }
+
+    .slides {
+      display: flex;
+      transition: transform 350ms ease;
+      will-change: transform;
+    }
+
+    .slide {
+      min-width: 100%;
+      user-select: none;
+      aspect-ratio: 16 / 9;
+      background: #111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .slide img {
+      width: 500px;
+      height: 500px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.45);
+      color: #fff;
+      border: 0;
+      padding: 10px 12px;
+      border-radius: 999px;
+      cursor: pointer;
+      z-index: 2;
+    }
+
+    .btn:hover { background: rgba(0,0,0,0.65); }
+
+    .prev { left: 12px; }
+    .next { right: 12px; }
+
+    
